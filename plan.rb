@@ -1,15 +1,11 @@
 module Plan
 
-  class Dotenv
-
-    def name
-      "env"
-    end
-
+  class Web
+    
     def destination
-      ".env"
+      "layout.mote"
     end
 
   end
 
-endi
+end
