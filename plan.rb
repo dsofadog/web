@@ -1,3 +1,5 @@
+require 'gn/dsl'
+
 module Plan
   extend Gn::DSL
   extend self
