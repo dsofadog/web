@@ -4,5 +4,5 @@ module Plan
   extend Gn::DSL
   extend self
  
-  template "layout", "screens/layout.mote"
+  template "Layout", "screens/layout.mote"
 end
