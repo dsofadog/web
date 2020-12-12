@@ -1,11 +1,6 @@
 module Plan
-
-  class Web
-    
-    def destination
-      "layout.mote"
-    end
-
-  end
-
+  extend Gn::DSL
+  extend self
+ 
+  template "layout", "screens/layout.mote"
 end
