@@ -1,8 +1,7 @@
-require 'gn/dsl'
+require 'hud/gen/dsl'
 
 module Plan
-  extend Gn::DSL
+  extend Hud::Gen::DSL
   extend self
- 
   template "Layout", "screens/layout.mote"
 end
