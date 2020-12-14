@@ -4,4 +4,5 @@ module Plan
   template "Layout", "screens/layout.mote"
   template "Body", "screens/body.mote"
   template "Title", "screens/title.mote"
+  template "RubyVersion", ".ruby-version"
 end
